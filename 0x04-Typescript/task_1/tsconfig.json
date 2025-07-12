@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./",       // Output directly to task_1 folder
+    "rootDir": "./js",    // Source files are in the 'js' directory
+    "sourceMap": true
+  },
+  "include": ["js/**/*.ts"], // Include files from the 'js' directory
+  "exclude": ["node_modules"]
+}

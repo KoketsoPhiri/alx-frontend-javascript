@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Improved: Output compiled files to a 'dist' directory
+    "rootDir": "./js",
+    "sourceMap": true,
+    "moduleResolution": "node" // Added: Explicitly specifies Node.js style module resolution
+  },
+  "include": ["js/**/*.ts"],
+  "exclude": ["node_modules", "./dist"] // Added: Exclude the output directory from being processed
+}
